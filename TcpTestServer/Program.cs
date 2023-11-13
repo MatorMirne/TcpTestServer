@@ -26,12 +26,10 @@ public class TcpTest
 		if (clientSocket.Connected == false)
 			return;
 
-		var response = rcv + " Did you send this ~?";
+		var response = rcv + "<- Did you send this ~?";
 		Console.WriteLine(response);
-
-		string json = JsonSerializer.Serialize(response);
-		sendBuffer = System.Text.Encoding.UTF8.GetBytes(json);
-		clientSocket.Send(sendBuffer, 0, json.Length, SocketFlags.None);
+		sendBuffer = System.Text.Encoding.UTF8.GetBytes(response);
+		clientSocket.Send(sendBuffer, 0, sendBuffer.Length, SocketFlags.None);
 		
 		clientSocket.Close();
 	}
