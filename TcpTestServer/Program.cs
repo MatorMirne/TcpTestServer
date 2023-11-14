@@ -6,7 +6,7 @@ public class TcpTest
 {
 	public static async Task Main(string[] args)
 	{
-		IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 51225);
+		IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 51226);
 		Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 		
 		serverSocket.Bind(endPoint);
@@ -26,7 +26,7 @@ public class TcpTest
 		if (clientSocket.Connected == false)
 			return;
 
-		var response = rcv + "<- Did you send this ~?";
+		var response = rcv + " <- Did you send this ~?";
 		Console.WriteLine(response);
 		sendBuffer = System.Text.Encoding.UTF8.GetBytes(response);
 		clientSocket.Send(sendBuffer, 0, sendBuffer.Length, SocketFlags.None);
