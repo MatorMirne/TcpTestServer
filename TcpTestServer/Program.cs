@@ -6,7 +6,7 @@ public class TcpTest
 {
 	public static async Task Main(string[] args)
 	{
-		IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 51226);
+		IPEndPoint endPoint = new IPEndPoint(IPAddress.Any, 51222);
 		Socket serverSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
 		
 		serverSocket.Bind(endPoint);
