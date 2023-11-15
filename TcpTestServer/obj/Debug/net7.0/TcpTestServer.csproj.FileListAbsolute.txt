@@ -1,0 +1,15 @@
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/bin/Debug/net7.0/TcpTestServer
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/bin/Debug/net7.0/TcpTestServer.deps.json
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/bin/Debug/net7.0/TcpTestServer.runtimeconfig.json
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/bin/Debug/net7.0/TcpTestServer.dll
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/bin/Debug/net7.0/TcpTestServer.pdb
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.csproj.AssemblyReference.cache
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.AssemblyInfoInputs.cache
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.AssemblyInfo.cs
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.csproj.CoreCompileInputs.cache
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.dll
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/refint/TcpTestServer.dll
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.pdb
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/TcpTestServer.genruntimeconfig.cache
+/Users/jaeeun/free/AWS/TcpTestServer/TcpTestServer/obj/Debug/net7.0/ref/TcpTestServer.dll
